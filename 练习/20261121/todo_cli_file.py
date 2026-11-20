@@ -45,7 +45,7 @@ def save_tasks(tasks):             # 改动③：新增，把清单写回文件
     """把清单写回文件，每行一项"""
     with open(FILE, "w", encoding="utf-8") as f:
         for t in tasks:
-            f.write(t + "\n")
+            f.write(t + "\n"`)
 
 
 todo = load_tasks()                # 原来这里是写死的 todo = [...] ，改成从文件读
