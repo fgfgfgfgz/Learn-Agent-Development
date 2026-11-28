@@ -6,5 +6,3 @@ def count_text(text):
     chars = len(text)
     # 【填空3】把 lines / words / chars 打包成一个元组返回
     return lines,words,chars
-
-print(count_text("你好,agent  !\n你好,pyton"))
